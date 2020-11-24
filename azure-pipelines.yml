@@ -74,7 +74,7 @@ stages:
       vmImage: 'ubuntu-18.04'
     environment: dev
     variables:
-    - group: Release
+    - group: 'WepApp deployment variable group 11-24'
     strategy:
       runOnce:
         deploy:
